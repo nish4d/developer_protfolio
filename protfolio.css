@@ -100,7 +100,6 @@ main{
 }
 .about{
     margin-top: 130px;
-    margin-bottom: 130px;
     text-align: center;
     padding: 130px 160px;
     background: #FFF8F3;
@@ -130,4 +129,23 @@ main{
     text-align: center;
     color: #757575;
    
+}
+/* ---what i do section---- */
+.what-i{
+    margin-top: 130px;
+    text-align: center;
+    padding: 0 160px;
+    
+}
+.what-title{
+    
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+.what-decription{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 36px;
+
 }
