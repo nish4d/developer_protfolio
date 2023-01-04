@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+}
+/* navication section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    
+}
+nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+nav li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+    
+}
+.btn_primary{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.primary_class{
+    color: #FD6E0A;
+    cursor: pointer;
+}
+/* --------- banner section ------------ */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px 0 200px;
+    
+    
+}
+
+.primary_sub_banner{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.primary_banner{
+    color: #181818;
+    font-weight: 700;
+font-size: 85px;
+line-height: 116px;
+}
+.banner div p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+margin-bottom: 20px;
+}
+
+.btn_primar{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    background: none;
+    border-radius: 5px;
+    height: 50px;
+    border: 1px solid #FD6E0A;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-left:35px;
+}
+
+/* --------start main section------- */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    text-align: center;
+    padding: 130px 160px;
+    background: #FFF8F3;
+    border-radius: 10px;
+
+}
+.section-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-decription{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+
+}
+
+.parent-sec{
+    display: flex;
+    
+}
+.child-sec{
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: #757575;
+   
+}
