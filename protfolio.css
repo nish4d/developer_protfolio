@@ -180,4 +180,46 @@ margin-bottom: 20px;
 
 }
 /* ---Resume section--- */
+.resume-continer{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    color: #474747;
+    font-weight: 700;
+font-size: 35px;
+text-align: center;
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700;
+font-size: 25px;
+}
+.resume-e-title{
+    color: #474747;
+    font-weight: 700;
+font-size: 25px;
+}
+.resume-subtitle{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.resume-decription{
+    font-size: 17px;
+    color: #757575;
+    
+    margin-bottom:30px;
+}
+.resume-item{
+    margin-top: 30px;
+    
+}
 
+.cv_button{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    text-align: center;
+}
