@@ -223,3 +223,37 @@ margin-bottom: 20px;
     margin-bottom: 110px;
     text-align: center;
 }
+/* contect serction */
+.contact{
+    display: flex;
+    gap: 115px;
+    background-color:#FFF8F3 ;
+    padding: 120px 210px;
+    height: 780px;
+}
+.section-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.section-title-dec{
+    color: #474747;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 50%;
+}
+.section-title-dec , a{
+    margin-right: 30px;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    border: none;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    height: 64px;
+}
