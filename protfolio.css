@@ -12,6 +12,12 @@
     background-repeat: no-repeat;
     background-position: right bottom, left bottom;
 }
+
+.header img{
+    width: 700px;
+    height:500px;
+
+}
 /* navication section */
 nav{
     display: flex;
